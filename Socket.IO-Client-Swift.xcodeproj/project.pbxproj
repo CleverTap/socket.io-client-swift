@@ -385,9 +385,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "SocketIO" */;
 			buildPhases = (
+				572EF2351B51F18A00EEBB58 /* Headers */,
 				572EF2331B51F18A00EEBB58 /* Sources */,
 				572EF2341B51F18A00EEBB58 /* Frameworks */,
-				572EF2351B51F18A00EEBB58 /* Headers */,
 				572EF2361B51F18A00EEBB58 /* Resources */,
 			);
 			buildRules = (
@@ -761,6 +761,7 @@
 				"ENABLE_BITCODE[sdk=macosx*]" = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
