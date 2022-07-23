@@ -375,9 +375,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "SocketIO" */;
 			buildPhases = (
+				572EF2351B51F18A00EEBB58 /* Headers */,
 				572EF2331B51F18A00EEBB58 /* Sources */,
 				572EF2341B51F18A00EEBB58 /* Frameworks */,
-				572EF2351B51F18A00EEBB58 /* Headers */,
 				572EF2361B51F18A00EEBB58 /* Resources */,
 			);
 			buildRules = (
@@ -777,7 +777,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VALID_ARCHS = "x86_64  arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -842,7 +841,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VALID_ARCHS = "x86_64  arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
